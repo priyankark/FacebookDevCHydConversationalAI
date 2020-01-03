@@ -1,0 +1,59 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "lady hunter tiger",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GameTurnIntent",
+                    "slots": [
+                        {
+                            "name": "move",
+                            "type": "MoveType"
+                        }
+                    ],
+                    "samples": [
+                        "{move}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "MoveType",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "tiger"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hunter"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "lady"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
